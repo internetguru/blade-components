@@ -1,0 +1,23 @@
+{
+    "name": "internetguru/blade-components",
+    "type": "library",
+    "authors": [
+        {
+            "name": "petrzpav",
+            "email": "pavel.petrzela@internetguru.cz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Internetguru\\BladeComponents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\Package\\PackageServiceProvider"
+            ]
+        }
+    }
+}

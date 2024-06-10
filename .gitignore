@@ -1,0 +1,44 @@
+# Composer dependencies
+/vendor/
+/composer.phar
+
+# Node modules (if any, in case of npm installation)
+/node_modules/
+
+# Environment files
+/.env
+/.env.backup
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# IDE and editor specific files
+/.idea
+/.vscode
+
+# Mac OS specific files
+.DS_Store
+
+# Laravel specific files
+/vendor/composer/*
+.phpunit.result.cache
+.env.testing
+
+# Laravel compiled files
+/vendor/
+composer.lock
+
+# Other system files
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore SASS cache
+.sass-cache
+
+# Temporary files
+/tmp
