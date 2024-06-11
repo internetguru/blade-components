@@ -1,0 +1,155 @@
+.btn:not(.dropdown-toggle),
+.btn-emphasized {
+    border: 0 !important;
+}
+
+.btn-simple {
+    &:not(.btn-no-shadow) {
+        box-shadow: $box-shadow;
+    }
+
+    width: $ig-btn-width;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-family: $ig-font-family-secondary;
+    font-weight: 500;
+    font-size: 0.85em;
+    padding: $ig-btn-padding-y $ig-btn-padding-x;
+
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &.show {
+        &:not(.btn-no-shadow) {
+            box-shadow: $box-shadow-lg !important;
+        }
+    }
+
+    +.dropdown-menu {
+        box-shadow: $box-shadow-lg;
+        width: $ig-btn-width;
+        max-width: 100%;
+        border: 0;
+
+        a {
+            font-family: $ig-font-family-secondary;
+            border: none;
+        }
+
+        .dropdown-item {
+            padding: $ig-btn-fa-padding-y * 0.5 $ig-btn-fa-padding-x;
+        }
+    }
+}
+
+.btn-white {
+    @include button-variant($white, $white, $ig-text-color);
+}
+
+.btn.disabled {
+    opacity: 0.5;
+    border: 0;
+}
+
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+    gap: $spacer;
+    position: relative;
+
+    svg {
+        flex-shrink: 0;
+        scale: 2;
+    }
+
+    &.btn-white svg {
+        color: $ig-primary-color;
+    }
+}
+
+.btn-close {
+    font-size: 0.75em;
+}
+
+.btn-compact {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 $spacer * 0.5;
+    gap: $spacer * 0.25;
+
+    svg {
+        flex-shrink: 0;
+    }
+}
+
+.btn-emphasized {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: $ig-btn-width - $spacer;
+    max-width: 100%;
+    padding: $ig-btn-fa-padding-y $ig-btn-fa-padding-x;
+
+    svg {
+        margin-bottom: $spacer * 0.75;
+        color: $ig-primary-color;
+    }
+
+    span::after {
+        content: "▼";
+        font-size: 0.9em;
+        color: $gray-600;
+        vertical-align: 0.1em;
+        margin-left: 0.2em;
+    }
+
+    &.dropdown-toggle::after {
+        display: none;
+    }
+}
+
+.btn-list {
+    @include flex;
+    @include verticalSpacer;
+    align-items: stretch;
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.btn-group {
+    &:not(.btn-split-group) {
+        box-shadow: $box-shadow-sm;
+        flex-direction: column;
+
+        .btn {
+            box-shadow: none;
+        }
+
+        .btn.active,
+        .btn:active {
+            color: $ig-primary-color;
+        }
+    }
+
+    > * {
+        min-width: 0;
+    }
+}
+
+@include media-1 {
+    .btn-group:not(.btn-split-group) {
+        flex-direction: row;
+    }
+}
