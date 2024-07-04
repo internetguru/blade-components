@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2024-07-04
+
+_Stable release based on [0.3.0-rc.1]._
+
 ## [0.3.0-rc.1] - 2024-07-04
 
 ### Added
@@ -59,6 +63,7 @@ _Stable release based on [0.1.0-rc.1]._
 - New changelog file.
 
 [Unreleased]: https://https://github.com/internetguru/blade-components/compare/staging...dev
+[0.3.0]: https://https://github.com/internetguru/blade-components/compare/v0.2.0...v0.3.0
 [0.3.0-rc.1]: https://github.com/internetguru/blade-components/releases/tag/v0.2.0
 [0.2.0]: https://https://github.com/internetguru/blade-components/compare/v0.1.4...v0.2.0
 [0.2.0-rc.1]: https://github.com/internetguru/blade-components/releases/tag/v0.1.4
