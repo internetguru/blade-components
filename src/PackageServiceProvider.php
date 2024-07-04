@@ -12,7 +12,7 @@ class PackageServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'package');
 
         // Register all components in the components directory
-        Blade::componentNamespace('Vendor\\BladeComponents\\View\\Components', 'ig');
+        Blade::componentNamespace('Internetguru\\BladeComponents\\View\\Components', 'ig');
 
         $this->publishes([
             __DIR__ . '/../resources/assets/sass' => resource_path('sass/vendor/internetguru/blade-components'),
