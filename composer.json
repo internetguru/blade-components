@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\Package\\PackageServiceProvider"
+                "Internetguru\\BladeComponents\\PackageServiceProvider"
             ]
         }
     }
