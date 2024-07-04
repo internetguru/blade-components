@@ -2,7 +2,7 @@
     <div class="toast-container">
         @if($errors->any())
             @foreach($errors->all() as $error)
-                <x-message type="danger" :message="$error"/>
+                <x-ig::message type="danger" :message="$error"/>
             @endforeach
         @endif
         @if(session('success', false))
