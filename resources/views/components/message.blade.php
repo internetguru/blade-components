@@ -1,3 +1,8 @@
+@props([
+    'type',
+    'message',
+])
+
 <div class="toast show text-white bg-{{ $type }}" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
     <div class="d-flex">
         <div class="toast-body flex-grow-1">
