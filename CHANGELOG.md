@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.3] - 2024-07-04
+
+### Fixed
+
+- Add missing Btn class.
+
 ## [0.1.2] - 2024-07-04
 
 ### Fixed
@@ -31,6 +37,7 @@ _Stable release based on [0.1.0-rc.1]._
 - New changelog file.
 
 [Unreleased]: https://https://github.com/internetguru/blade-components/compare/staging...dev
+[0.1.3]: https://https://github.com/internetguru/blade-components/compare/v0.1.2...v0.1.3
 [0.1.2]: https://https://github.com/internetguru/blade-components/compare/v0.1.1...v0.1.2
 [0.1.1]: https://https://github.com/internetguru/blade-components/compare/v0.1.0...v0.1.1
 [0.1.0]: https://https://github.com/internetguru/blade-components/compare/v0.0.0...v0.1.0
