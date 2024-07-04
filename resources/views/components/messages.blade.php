@@ -13,7 +13,7 @@
             }
             @endphp
             @foreach ($data as $msg)
-                <x-message type="success" :message="$msg"/>
+                <x-ig::message type="success" :message="$msg"/>
             @endforeach
         @endif
     </div>
