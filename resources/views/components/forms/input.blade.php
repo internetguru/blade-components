@@ -3,6 +3,7 @@
     'name',
     'value',
     'options' => [],
+    'useoptionkeys' => false,
     'rows' => 10,
     'disabled' => false,
     'checked' => false,
@@ -31,6 +32,8 @@
             @foreach($options as $option)
                 @if (is_array($option))
                     <option value="{{ $option['id'] }}" @if($option['id'] == (old($name) ?? $value)) selected @endif>{{ $option['name'] }}</option>
+                @elseif ($useoptionkeys)
+                    <option value="{{ key($option) }}" @if(key($option) == (old($name) ?? $value)) selected @endif>{{ $option }}</option>
                 @else
                     <option value="{{ $option }}" @if($option == (old($name) ?? $value)) selected @endif>{{ $option }}</option>
                 @endif
