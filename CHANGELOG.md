@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.4] - 2024-07-12
+
+### Fixed
+
+- Fix useoptionkeys input option.
+
 ## [0.3.3] - 2024-07-12
 
 ### Added
@@ -81,6 +87,7 @@ _Stable release based on [0.1.0-rc.1]._
 - New changelog file.
 
 [Unreleased]: https://https://github.com/internetguru/blade-components/compare/staging...dev
+[0.3.4]: https://https://github.com/internetguru/blade-components/compare/v0.3.3...v0.3.4
 [0.3.3]: https://https://github.com/internetguru/blade-components/compare/v0.3.2...v0.3.3
 [0.3.2]: https://https://github.com/internetguru/blade-components/compare/v0.3.1...v0.3.2
 [0.3.1]: https://https://github.com/internetguru/blade-components/compare/v0.3.0...v0.3.1
