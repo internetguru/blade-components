@@ -31,11 +31,11 @@
         >
             @foreach($options as $key => $option)
                 @if (is_array($option))
-                    <option value="{{ $option['id'] }}" @if($option['id'] == (old($name) ?? $value)) selected @endif>{{ $option['name'] }}</option>
+                    <option value="{{ $option['id'] }}" @if($option['id'] == (old($name) ?? $value ?? '')) selected @endif>{{ $option['name'] }}</option>
                 @elseif ($useoptionkeys)
-                    <option value="{{ $key }}" @if($key == (old($name) ?? $value)) selected @endif>{{ $option }}</option>
+                    <option value="{{ $key }}" @if($key == (old($name) ?? $value ?? '')) selected @endif>{{ $option }}</option>
                 @else
-                    <option value="{{ $option }}" @if($option == (old($name) ?? $value)) selected @endif>{{ $option }}</option>
+                    <option value="{{ $option }}" @if($option == (old($name) ?? $value ?? '')) selected @endif>{{ $option }}</option>
                 @endif
             @endforeach
         </select>
