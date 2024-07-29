@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- Do not remember old password.
+
 ## [0.3.6] - 2024-07-22
 
 ### Fixed
