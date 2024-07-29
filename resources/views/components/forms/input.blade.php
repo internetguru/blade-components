@@ -56,7 +56,7 @@
             id="{{ $name }}"
             name="{{ $name }}"
             placeholder="{{ $slot }}"
-            value="{{ old($name) ?? $value ?? '' }}"
+            @if ($type !== 'password') value="{{ old($name) ?? $value ?? '' }}" @endif
             @if ($disabled) disabled @endif
             {{ $attributes }}
         />
