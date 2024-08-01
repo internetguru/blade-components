@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.1] - 2024-08-01
+
+### Fixed
+
+- Fix messages double encoding.
+
 ## [0.4.0] - 2024-07-29
 
 _Stable release based on [0.4.0-rc.1]._
@@ -106,6 +112,7 @@ _Stable release based on [0.1.0-rc.1]._
 
 - New changelog file.
 
+[0.4.1]: https://https://github.com/internetguru/blade-components/compare/v0.4.0...v0.4.1
 [0.4.0]: https://https://github.com/internetguru/blade-components/compare/v0.3.6...v0.4.0
 [0.4.0-rc.1]: https://github.com/internetguru/blade-components/releases/tag/v0.3.6
 [0.3.6]: https://https://github.com/internetguru/blade-components/compare/v0.3.5...v0.3.6
