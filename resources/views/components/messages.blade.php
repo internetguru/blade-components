@@ -1,4 +1,4 @@
-<div class="toast-wrapper position-absolute px-2 mw-100" style="z-index: 11">
+<div class="toast-wrapper position-relative" style="z-index: 1050;">
     <div class="toast-container">
         @if($errors->any())
             @foreach($errors->all() as $error)
