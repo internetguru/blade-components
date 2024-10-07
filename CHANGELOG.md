@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.7.1] - 2024-10-07
+
+### Fixed
+
+- Fix message border.
+
 ## [0.7.0] - 2024-10-07
 
 _Stable release based on [0.7.0-rc.1]._
@@ -140,6 +146,7 @@ _Stable release based on [0.1.0-rc.1]._
 
 - New changelog file.
 
+[0.7.1]: https://https://github.com/internetguru/blade-components/compare/v0.7.0...v0.7.1
 [0.7.0]: https://https://github.com/internetguru/blade-components/compare/v0.6.1...v0.7.0
 [0.7.0-rc.1]: https://github.com/internetguru/blade-components/releases/tag/v0.6.1
 [0.6.1]: https://https://github.com/internetguru/blade-components/compare/v0.6.0...v0.6.1
